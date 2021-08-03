@@ -1,20 +1,32 @@
-Chicho challenge
-================
+![BEON LOGO](https://beon.studio/blog/wp-content/themes/twentybeon/app/images/beon-purple.png)
 
-#### Use
-1. Fork this repository
-1. Run `composer install`
-1. Run `php ./vendor/phpunit/phpunit/phpunit` (requires php >= 7.3 if you use other version please update composer.json file first)
+# PHP Live Coding Challenge
 
-#### Tasks
+Before joining the live coding challenge, you should have set up the local environment for the application.
 
-- Fix any errors and add the necessary to make the test work and commit it
-- Add a test for the method makeCallByName passing a valid contact, mock up any hard dependency and add the right assertions
-- Add the necessary code in the production code to check when the contact is not found and add another test to test that case
-- Add your own logic to send a SMS given a number and the body, the method should validate the number using the validateNumber method from ContactService and using the provider property’s methods
-- When writing the tests you should mock every method from ContactService
+Consider having installed:
+- PHP 7.3^ and extension: php-xml
+- Composer
 
-#### Bonus
-- Can you add support for two mobile carriers? How would you accomplish that?
-- Create a new integration with an external service like Twilio to send and track an SMS.
-- Create Unit Tests for this integration using a mock web server or similar.
+Steps:
+
+1. Clone this repository
+2. Run `composer install`
+3. Run `php ./vendor/phpunit/phpunit/phpunit` (requires php >= 7.3 if you use other version please update composer.json file first)
+
+Also, we recommend you read the code so that you are not caught off guard.
+
+# What does the live coding looks like?
+
+The live coding session will be more like a pair programming exercise, we will request you to implement a feature, solve bugs or give code advice. You will be able to use Google and any documentation that can help you. Instructions will be provided in the live coding session.
+
+# Basic requirements
+
+- Your preferred IDE / Code Editor
+- PHP >= 7.3
+- Composer
+- Git
+
+## Libraries used:
+
+- PHP Unit ^9.2

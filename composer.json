@@ -1,19 +1,19 @@
 {
-    "name": "chichocorp/codechallenge",
+    "name": "beon/phpcodechallenge",
     "description": "Code challenge",
     "type": "project",
     "authors": [
         {
-            "name": "Job Wong",
-            "email": "jobwongdavila@outlook.com"
+            "name": "Samuel Rojas",
+            "email": "samuel.rojas@beon.studio"
         }
     ],
     "require": {
-        "mockery/mockery": "^1.4"
+        "ext-json": "*//test"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "Src\\": "src/"
         }
     },
     "autoload-dev": {
